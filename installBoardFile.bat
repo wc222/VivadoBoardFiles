@@ -12,7 +12,7 @@ IF NOT EXIST %DOWNLOAD_PATH% (
 )
  
 REM 下载文件
-curl -L -o %DOWNLOAD_PATH%\master.zip %DOWNLOAD_URL%
+curl -Lk -o %DOWNLOAD_PATH%\master.zip %DOWNLOAD_URL%
  
 REM 解压缩文件
 IF EXIST %DOWNLOAD_PATH%\master.zip (
