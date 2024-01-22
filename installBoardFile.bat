@@ -1,9 +1,7 @@
 REM 设置下载文件路径和解压缩目录
-SET PROXY_DETAILS="-Dhttp.proxyHost=proxy.cse.cuhk.edu.hk"
-"-Dhttp.proxyPort=8000"
 
-SET PROXY_DETAILS="-Dhttps.proxyHost=proxy.cse.cuhk.edu.hk"
-"-Dhttps.proxyPort=8000"
+set https_proxy=proxy.cse.cuhk.edu.hk:8000
+
 SET DOWNLOAD_URL=https://github.com/Digilent/vivado-boards/archive/master.zip
 SET DOWNLOAD_PATH=C:\temp
 SET UNZIP_PATH=C:\temp\
