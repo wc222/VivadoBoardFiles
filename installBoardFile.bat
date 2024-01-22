@@ -20,7 +20,7 @@ IF EXIST %DOWNLOAD_PATH%\master.zip (
 )
  
 REM 复制文件夹
-xcopy /E /Y %UNZIP_PATH%\vivado-boards-master\new\board_files C:\Xilinx\Vivado\13.2\data\boards
+xcopy /E /Y %UNZIP_PATH%\vivado-boards-master\new\board_files C:\Xilinx\Vivado\2023.2\data\boards
  
 REM 删除临时文件夹
 IF EXIST %UNZIP_PATH% (
